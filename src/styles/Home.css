@@ -1,3 +1,9 @@
+a, a:-webkit-any-link {
+  text-decoration: none !important;
+  /* color: inherit; */
+  cursor: pointer;
+}
+
 .grid-home {
   width: 100vw;
   height: 100vh;
@@ -23,7 +29,17 @@
   justify-content: center;
 }
 .socials {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  padding-right: 50px;
   border: rgb(255, 0, 242) 1px solid;
+  color: white;
+  font-size: 30px;
+}
+.socials a{
+  color: white;
 }
 .home-qoute {
   border: rgb(255, 217, 0) 1px solid;
@@ -35,6 +51,17 @@
 
 .nav-item {
   color: var(--primary);
+  font-size: 20px;
+}
+
+
+
+.nav a::first-letter {
+  font-weight: 900;
+}
+
+.nav a:hover {
+  border-bottom: var(--primary) solid 1px;
 }
 
 .hi {
@@ -43,10 +70,29 @@
   font-weight: 700;
 }
 
+.name-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  /* justify-content: center; */
+  animation: typing 2s  steps(21)  ;
+}
+.name-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-color: white;
+  animation: blink 0.5s steps(2) infinite, disapear 0.5s  2s forwards;
+}
+
 .im-name {
   color: white;
   font-size: 80px;
   font-weight: 700;
+
 }
 
 .developer {
@@ -59,4 +105,36 @@
   font-size: 30px;
   font-weight: 700;
   color: var(--primary);
+}
+
+
+
+@keyframes typing{
+  0% {
+    width: 1px;
+  }
+  
+  100% {
+    width: 839px;
+  }
+}
+
+
+@keyframes blink{
+  0%,75% {
+    opacity: 1;
+  }
+  
+  76%,100% {
+    opacity: 0;
+  }
+}
+
+@keyframes disapear{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }

@@ -4,6 +4,7 @@
   --primary: #08fdd8;
   --left-padding: 50px;
   --main-font: 'Roboto', sans-serif;
+  
 }
 
 * {
@@ -16,9 +17,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  max-width: 100vw;
+  /* max-width: 100px; */
   height: auto;
   position: relative;
   font-family: var(--main-font);
+
 }
 
