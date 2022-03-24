@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
+import About from './components/About';
 import Home from './components/Home';
 import scrollAnimation from './scrollAnimation';
 
@@ -56,6 +57,7 @@ function App() {
         <h1 class="I">I</h1>
       </div> */}
       <Home />
+      <About />
     </div>
   );
 }

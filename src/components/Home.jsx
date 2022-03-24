@@ -9,17 +9,19 @@ function Home () {
   return (
     <div id="home" className="grid-home">
       <div className="nav">
-        <a href="#home" className="nav-item">Home</a>
-        <a className="nav-item">About</a>
-        <a className="nav-item">Skills</a>
-        <a className="nav-item">Projects</a>
+        <div className="nav-menu">
+          <a href="#home" className="nav-item">Home</a>
+          <a href="#about" className="nav-item">About</a>
+          <a className="nav-item">Skills</a>
+          <a className="nav-item">Projects</a>
+        </div>
+        <div className="socials">
+          <a href="https://github.com/nati047"><FontAwesomeIcon icon={ faGithub } /></a>
+          <a href="https://www.linkedin.com/in/webdev-nat/"><FontAwesomeIcon icon={ faLinkedin } /></a>
+          <a><FontAwesomeIcon icon={ faInstagram } /></a>
+        </div>
       </div>
 
-      <div className="socials">
-        <a href="https://github.com/nati047"><FontAwesomeIcon icon={ faGithub } /></a>
-        <a href="https://www.linkedin.com/in/webdev-nat/"><FontAwesomeIcon icon={ faLinkedin } /></a>
-        <FontAwesomeIcon icon={ faInstagram } />
-      </div>
 
       <div className="home-main">
         <div className="hi">Hi,</div>
