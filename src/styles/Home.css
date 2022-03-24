@@ -16,7 +16,7 @@ a, a:-webkit-any-link {
 .nav {
   position: fixed;
   /* top: 0; */
-  border: rgb(0, 4, 255) 1px solid;
+  /* border: rgb(0, 4, 255) 1px solid; */
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -79,6 +79,7 @@ a, a:-webkit-any-link {
 .name-container {
   position: relative;
   display: flex;
+  width: max-content;
   overflow: hidden;
   /* justify-content: center; */
   animation: typing 2s  steps(21)  ;
@@ -91,7 +92,7 @@ a, a:-webkit-any-link {
   width: 5px;
   height: 100%;
   background-color: white;
-  animation: blink 0.5s steps(2) infinite, disapear 0.5s  2s forwards;
+  animation: blink 0.5s steps(3) infinite, disapear 0.5s  2s forwards;
 }
 
 .im-name {
