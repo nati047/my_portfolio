@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
+import Home from './components/Home';
 import scrollAnimation from './scrollAnimation';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
 
-      <div class="name scroll">
+      {/* <div class="name scroll">
         <h1 class="N ">N</h1>
         <h1 class="A">A</h1>
         <h1 class="T">T</h1>
@@ -31,7 +32,7 @@ function App() {
         <h1 class="A">A</h1>
         <h1 class="T">T</h1>
         <h1 class="I">I</h1>
-      </div>
+      </div> */}
 
       {/* <div class="square-wrapper page show-in ">
     <div class="square"></div>
@@ -54,7 +55,7 @@ function App() {
         <h1 class="T">T</h1>
         <h1 class="I">I</h1>
       </div> */}
-
+      <Home />
     </div>
   );
 }
