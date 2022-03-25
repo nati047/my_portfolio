@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import About from './components/About';
 import Home from './components/Home';
+import Skills from './components/Skills';
 import scrollAnimation from './scrollAnimation';
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
       </div> */}
       <Home />
       <About />
+      <Skills />
     </div>
   );
 }
