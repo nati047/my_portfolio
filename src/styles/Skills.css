@@ -22,6 +22,7 @@
   /* flex-grow: 0; */
 }
 
+
 .s-underline {
   width: 60%;
   height: 10px;
@@ -81,5 +82,5 @@
   100% {
     transform: rotate(-10deg);
   }
-  
 }
+

@@ -7,7 +7,7 @@ a, a:-webkit-any-link {
 .grid-home {
   width: 100vw;
   height: 100vh;
-  border: aqua 1px solid;
+  /* border: aqua 1px solid; */
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr ;
@@ -23,8 +23,9 @@ a, a:-webkit-any-link {
   padding-top: 30px;
   padding-left: var(--left-padding);
 }
+
 .home-main {
-  border: rgb(9, 255, 0) 1px solid;
+  /* border: rgb(9, 255, 0) 1px solid; */
   grid-column: span 2;
   padding-left: var(--left-padding);
   display: flex;
@@ -40,12 +41,22 @@ a, a:-webkit-any-link {
   padding-right: 50px;
   color: white;
   font-size: 30px;
+ 
 }
+.socials-icon{
+  opacity: 0.5;
+}
+
+.socials-icon:hover {
+  opacity: 1;
+  border-bottom: none !important;
+}
+
 .socials a{
   color: white;
 }
 .home-qoute {
-  border: rgb(255, 217, 0) 1px solid;
+  /* border: rgb(255, 217, 0) 1px solid; */
   grid-column: span 2;
   display: flex;
   justify-content: center;
@@ -58,9 +69,11 @@ a, a:-webkit-any-link {
 .nav-item {
   color: var(--primary);
   font-size: 20px;
+  opacity: 0.5;
 }
-
-
+.nav-item:hover {
+  opacity: 1;
+}
 
 .nav a::first-letter {
   font-weight: 900;

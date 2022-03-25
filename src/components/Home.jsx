@@ -10,15 +10,15 @@ function Home() {
     <div className="home">
       <div className="nav">  {/* @todo make navbar component*/}
         <div className="nav-menu">
-          <a href="#home" className="nav-item">Home</a>
-          <a href="#about" className="nav-item">About</a>
-          <a className="nav-item">Skills</a>
+          <a className="nav-item" href="#home" >Home</a>
+          <a className="nav-item" href="#about" >About</a>
+          <a className="nav-item" href="#skills" >Skills</a>
           <a className="nav-item">Projects</a>
         </div>
         <div className="socials">
-          <a href="https://github.com/nati047"><FontAwesomeIcon icon={faGithub} /></a>
-          <a href="https://www.linkedin.com/in/webdev-nat/"><FontAwesomeIcon icon={faLinkedin} /></a>
-          <a><FontAwesomeIcon icon={faInstagram} /></a>
+          <a className="socials-icon" href="https://github.com/nati047"><FontAwesomeIcon icon={faGithub} /></a>
+          <a className="socials-icon" href="https://www.linkedin.com/in/webdev-nat/"><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a className="socials-icon"><FontAwesomeIcon icon={faInstagram} /></a>
         </div>
       </div>
 
