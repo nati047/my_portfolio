@@ -60,8 +60,8 @@ function App() {
       </div> */}
       <Home />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
     </div>
   );
 }
