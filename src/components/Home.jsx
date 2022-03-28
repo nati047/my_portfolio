@@ -14,6 +14,7 @@ function Home() {
           <a className="nav-item" href="#about" >About</a>
           <a className="nav-item" href="#skills" >Skills</a>
           <a className="nav-item" href="#projects">Projects</a>
+          <a className="nav-item" href="#contact">Contact</a>
         </div>
         <div className="socials">
           <a className="socials-icon" href="https://github.com/nati047"><FontAwesomeIcon icon={faGithub} /></a>
