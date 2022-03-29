@@ -3,11 +3,16 @@ a, a:-webkit-any-link {
   /* color: inherit; */
   cursor: pointer;
 }
+.home {
+
+}
 
 .grid-home {
+  position: absolute;
+  top: 0px;
   width: 100vw;
   height: 100vh;
-  /* border: aqua 1px solid; */
+  border: aqua 1px solid;
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr ;
@@ -15,6 +20,7 @@ a, a:-webkit-any-link {
 }
 .nav {
   position: fixed;
+  z-index: 100;
   /* top: 0; */
   /* border: rgb(0, 4, 255) 1px solid; */
   display: flex;

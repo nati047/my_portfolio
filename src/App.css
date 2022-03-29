@@ -4,7 +4,7 @@
   --primary: #08fdd8;
   --left-padding: 50px;
   --main-font: 'Roboto', sans-serif;
-  
+  scroll-behavior: smooth;
 }
 
 * {
@@ -21,6 +21,5 @@ body {
   height: auto;
   position: relative;
   font-family: var(--main-font);
-
 }
 

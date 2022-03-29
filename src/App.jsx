@@ -3,9 +3,10 @@ import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import scrollAnimation from './scrollAnimation';
+import { scrollAnimation } from './scrollAnimation';
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
         <h1 class="T">T</h1>
         <h1 class="I">I</h1>
       </div> */}
+      <Navbar />
       <Home />
       <About />
       <Skills />

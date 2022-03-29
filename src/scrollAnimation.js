@@ -1,64 +1,75 @@
 import $ from 'jquery';
 
-export default function scrollAnimation () {
-  
-  
-    console.log('vh', window.innerHeight);
-    const divs = $('.scroll');
-    const sec = $('.second');
-    const two = $('.two');
-    const three = $('.three');
-  
-    $(window).on('scroll', function () {
-  
-      const vh = window.innerHeight;
-      const vh2 = window.innerHeight / 2;
-      const st = $(this).scrollTop();
-      // console.log('scroll y and scrollTop()',window.scrollY, st)
-      const num = 100;
-      const top = 100;    // inital top value
-      
-      divs.css({
-        'opacity': (1 - st / num),
-        'top': (100 + window.scrollY) <  3000 ? `${100 + window.scrollY}px ` : `3000px`
-      });
-  
+function scrollAnimation() {
+  const home = $('.grid-home');
+  const about = $('.about-container');
+  const skills = $('.skills-container');
+  const projects = $('.projects-container');
+  const contact = $('.contact-container');
+
+  $(window).on('scroll', function () {
+    const vh = window.innerHeight;
+    const midViewport = window.innerHeight / 2;
+    const vh2 = vh * 2;
+    const vh3 = vh * 3;
+    const vh4 = vh * 4;
+    const totalHeight = 4 * vh;
+    const st = $(this).scrollTop();
+
+    home.css({
+      'opacity': (1 - st / midViewport),
+      'top': window.scrollY < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
+    });
+
+    const fadeEffect = (div, initalTop) => {
       // fade in
-      if (window.scrollY + (vh / 2) >= 600) {  // div at half viewport
-        sec.css({
-          'opacity': ((st + vh2 - 600) / (vh2 - 100))
+      if (window.scrollY + (midViewport) >= initalTop) {  // div at half viewport
+        div.css({
+          'opacity': ((st + midViewport - initalTop) / (midViewport))
         });
       }
       else {
-        sec.css({
+        div.css({
           'opacity': 0
         });
       }
-  
       // fade out
-      if (window.scrollY + 100 >= 600) {  // div at 100 from top
-        sec.css({
-          'opacity': (1 - (st - 600) / num),
-          'top': (100 + window.scrollY) <  3000 ? `${100 + window.scrollY}px ` : `3000px`
+      if (window.scrollY >= initalTop) {  // div at top 0
+        div.css({
+          'opacity': (1 - (st - initalTop) / midViewport),
+          'top': (window.scrollY) < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
         });
       }
-  
-  
-      if (window.scrollY + 100 >= 1100) {
-        two.css({
-          'opacity': (1 - (st - 1100) / num),
-          'top': (100 + window.scrollY) <  3000 ? `${100 + window.scrollY}px ` : `3000px`
-        });
-      }
-      if (window.scrollY + 100 >= 1600) {
-        three.css({
-          'opacity': (1 - (st - 1600) / num),
-          'top': (100 + window.scrollY) <  3000 ? `${100 + window.scrollY}px ` : `3000px`
-        });
-      }
-  
-  
-    });
-  
-  
+    };
+    fadeEffect(about, vh);
+    fadeEffect(skills, vh2);
+    fadeEffect(projects, vh3);
+    fadeEffect(contact, vh4);
+  });
 };
+
+function reset() {
+  const home = $('.grid-home');
+  const about = $('.about-container');
+  const skills = $('.skills-container');
+  const projects = $('.projects-container');
+  const contact = $('.contact-container');
+
+  const vh = window.innerHeight;
+  const vh2 = vh * 2;
+  const vh3 = vh * 3;
+  const vh4 = vh * 4;
+  const reseter = (div, topValue) => {
+    div.css({
+      'opacity': 1,
+      'top': topValue
+    });
+  }
+  reseter(home, 0);
+  reseter(about, vh);
+  reseter(skills, vh2);
+  reseter(projects, vh3);
+  reseter(contact, vh4);
+};
+
+export { scrollAnimation, reset };
