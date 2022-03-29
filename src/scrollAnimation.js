@@ -17,15 +17,15 @@ function scrollAnimation() {
     const st = $(this).scrollTop();
 
     home.css({
-      'opacity': (1 - st / midViewport),
+      'opacity': (1 - st / (vh - 100)),
       'top': window.scrollY < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
     });
 
     const fadeEffect = (div, initalTop) => {
       // fade in
-      if (window.scrollY + (midViewport) >= initalTop) {  // div at half viewport
+      if (window.scrollY + (100) >= initalTop) {  // div at half viewport plus 100px
         div.css({
-          'opacity': ((st + midViewport - initalTop) / (midViewport))
+          'opacity': ((st + midViewport - initalTop) / (vh - 100))
         });
       }
       else {
@@ -36,7 +36,7 @@ function scrollAnimation() {
       // fade out
       if (window.scrollY >= initalTop) {  // div at top 0
         div.css({
-          'opacity': (1 - (st - initalTop) / midViewport),
+          'opacity': (1 - (st - initalTop) / (midViewport + 200)),
           'top': (window.scrollY) < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
         });
       }
