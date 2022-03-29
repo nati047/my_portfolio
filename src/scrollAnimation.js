@@ -15,17 +15,18 @@ function scrollAnimation() {
     const vh4 = vh * 4;
     const totalHeight = 4 * vh;
     const st = $(this).scrollTop();
+    const visiblePoint = 200;
 
     home.css({
-      'opacity': (1 - st / (vh - 100)),
+      'opacity': (1 - st / (vh - visiblePoint)),
       'top': window.scrollY < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
     });
 
     const fadeEffect = (div, initalTop) => {
       // fade in
-      if (window.scrollY + (100) >= initalTop) {  // div at half viewport plus 100px
+      if (window.scrollY + (visiblePoint) >= initalTop) {  // div at half viewport plus visiblePointpx
         div.css({
-          'opacity': ((st + midViewport - initalTop) / (vh - 100))
+          'opacity': ((st + midViewport - initalTop) / (vh - visiblePoint))
         });
       }
       else {

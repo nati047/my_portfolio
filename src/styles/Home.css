@@ -30,6 +30,13 @@ a, a:-webkit-any-link {
   padding-left: var(--left-padding);
 }
 
+/* .resume {
+  background-color: var(--primary);
+  color: rgb(35,37,46) !important;
+  padding: 3px;
+  border-radius: 10px;
+} */
+
 .home-main {
   /* border: rgb(9, 255, 0) 1px solid; */
   grid-column: span 2;

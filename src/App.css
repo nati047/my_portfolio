@@ -5,6 +5,7 @@
   --left-padding: 50px;
   --main-font: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+  --max-width: 1250px;
 }
 
 * {
