@@ -7,6 +7,8 @@
   scroll-behavior: smooth;
   --max-width: 1250px;
   --bg-image:  none;
+  --huge-font: 80px;
+  --medium-font: 60px;
 }
 
 * {

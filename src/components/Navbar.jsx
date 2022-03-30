@@ -1,12 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faBars } from '@fortawesome/free-solid-svg-icons'
 import {  reset } from '../../src/scrollAnimation';
 import '../styles/Nav.css';
 function Navbar() {
   
   return (
     <div className="nav">  
+      <div className="toggle-btn">
+        <FontAwesomeIcon icon = { faBars}/>
+      </div>
       <div onClick={() => reset()} className="nav-menu">
         <a className="nav-item"  href="#home" >Home</a>
         <a className="nav-item" href="#about" >About</a>

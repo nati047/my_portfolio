@@ -47,3 +47,27 @@
   text-decoration: none;
   color: white;
 }
+
+.thanks {
+  color: var(--primary);
+  font-size: 30px;
+}
+
+.email {
+  color: rgb(255, 166, 0);
+}
+
+.phone {
+  color: rgb(0, 4, 7);
+}
+.location {
+  color: #d60000;
+}
+
+.linkedin {
+  color: #0e81f5;
+}
+
+.github {
+  color: black ;
+}

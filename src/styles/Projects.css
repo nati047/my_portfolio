@@ -41,8 +41,8 @@
   display: flex;
   gap: 1%;
   padding-bottom: 2%;
-  /* grid-template-columns: repeat(4, 1fr);
-  grid-template-rows:  auto; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-rows:  auto; */
 }
 
 .project-card {

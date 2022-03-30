@@ -1,7 +1,7 @@
 import '../styles/Projects.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import image1 from '../images/My-urls.png';
 import dog from '../images/dog.jpg';
 function Projects() {
@@ -20,7 +20,7 @@ function Projects() {
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
             <div className="project-links">
               <a><FontAwesomeIcon icon={faGithub} /></a>
-              <a><FontAwesomeIcon icon={faLink} /></a>
+              <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Projects() {
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
             <div className="project-links">
               <a><FontAwesomeIcon icon={faGithub} /></a>
-              <a><FontAwesomeIcon icon={faLink} /></a>
+              <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ function Projects() {
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
             <div className="project-links">
               <a><FontAwesomeIcon icon={faGithub} /></a>
-              <a><FontAwesomeIcon icon={faLink} /></a>
+              <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ function Projects() {
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
             <div className="project-links">
               <a><FontAwesomeIcon icon={faGithub} /></a>
-              <a><FontAwesomeIcon icon={faLink} /></a>
+              <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
             </div>
           </div>
         </div>
