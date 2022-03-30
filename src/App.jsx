@@ -60,12 +60,15 @@ function App() {
         <h1 class="T">T</h1>
         <h1 class="I">I</h1>
       </div> */}
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className="background"></div>
+      <div className="components">
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }

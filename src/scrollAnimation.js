@@ -16,7 +16,6 @@ function scrollAnimation() {
     const totalHeight = 4 * vh;
     const st = $(this).scrollTop();
     const visiblePoint = 200;
-
     home.css({
       'opacity': (1 - st / (vh - visiblePoint)),
       'top': window.scrollY < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`

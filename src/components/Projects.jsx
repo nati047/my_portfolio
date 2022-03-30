@@ -10,7 +10,7 @@ function Projects() {
       <div className="projects">PROJECTS
         <div className="p-underline"></div>
       </div>
-      <div className="projects-grid">
+      <div className="projects-flex">
         <div className="project-card">
           <div className="image-wrapper">
             <img className="project-image" src={dog} />
@@ -52,7 +52,7 @@ function Projects() {
         </div>
         <div className="project-card">
           <div className="image-wrapper">
-            <img className="project-image" src={dog} />
+            <img className="project-image" src={image1} />
           </div>
           <div className="project-description">
             <div className="project-name">TINY APP</div>

@@ -2,10 +2,11 @@
 
 :root {
   --primary: #08fdd8;
-  --left-padding: 50px;
+  --left-padding: 60px;
   --main-font: 'Roboto', sans-serif;
   scroll-behavior: smooth;
   --max-width: 1250px;
+  --bg-image:  none;
 }
 
 * {
@@ -14,13 +15,35 @@
   box-sizing: border-box;
 }
 
+html {
+  /* background-image: url('/src/images/bgImage.jpg'); */
+  box-shadow: 0 0 8px 8px #23252e inset;
+
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #23252e;
+  /* background-image: linear-gradient(to left top, #051937, #133660, #1d568c, #1f79bb, #129eeb); */
   /* max-width: 100px; */
   height: auto;
   position: relative;
   font-family: var(--main-font);
 }
+
+.background {
+  position: fixed;
+  /* z-index: -2; */
+  background-color: #3154f0;
+  background-image: url('/src/images/bgImage.jpg');
+  height: 100vh;
+  width: 100vw;
+}
+
+/* @media (max-width: 600px) {
+  body {
+  background-color: salmon;
+
+  }
+}  */
 
