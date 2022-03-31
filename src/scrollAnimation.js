@@ -16,7 +16,7 @@ function scrollAnimation() {
     const totalHeight = 4 * vh;
     const st = $(this).scrollTop();
     const visiblePoint = 200;
-   
+
 
     const fadeEffect = (div, initalTop) => {
       // fade in
@@ -38,14 +38,14 @@ function scrollAnimation() {
         });
       }
     };
-      home.css({
-        'opacity': (1 - st / (vh - visiblePoint)),
-        'top': window.scrollY < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
-      });
-      fadeEffect(about, vh);
-      fadeEffect(skills, vh2);
-      fadeEffect(projects, vh3);
-      fadeEffect(contact, vh4);
+    home.css({
+      'opacity': (1 - st / (vh - visiblePoint)),
+      'top': window.scrollY < totalHeight ? `${window.scrollY}px ` : `${totalHeight}px`
+    });
+    fadeEffect(about, vh);
+    fadeEffect(skills, vh2);
+    fadeEffect(projects, vh3);
+    fadeEffect(contact, vh4);
   });
 };
 
@@ -73,7 +73,7 @@ function reset() {
   reseter(contact, vh4);
 };
 
-function toggle () {
+function toggle() {
   const toggleBtn = document.getElementsByClassName('toggle-btn')[0];
   const navMenu = document.getElementsByClassName('nav-menu')[0];
   const navItemsArray = [];
@@ -83,20 +83,16 @@ function toggle () {
   navItemsArray.push(document.getElementsByClassName('nav-item')[3]);
   navItemsArray.push(document.getElementsByClassName('nav-item')[4]);
   navItemsArray.push(document.getElementsByClassName('nav-item')[5]);
-  
+
   toggleBtn.addEventListener('click', () => {
     navMenu.classList.toggle('active')
   })
 
-navItemsArray.forEach( item => {
-  item.addEventListener('click', () => {
-    navMenu.classList.toggle('active')
+  navItemsArray.forEach(item => {
+    item.addEventListener('click', () => {
+      navMenu.classList.toggle('active')
+    })
   })
-})
-
-//  console.log(navItems)
- 
-
 }
 
 export { scrollAnimation, reset, toggle };

@@ -5,7 +5,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 function Contact () {
   return(
-   <div id="contact" className="contact-container">
+   <div id="contact" className="contact-container container">
      <div className="contact">Contact
        <div className="c-underline"></div>
      </div>

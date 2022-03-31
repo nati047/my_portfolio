@@ -53,7 +53,7 @@
   font-size: 30px;
 }
 
-.email {
+/* .email {
   color: rgb(255, 166, 0);
 }
 
@@ -70,4 +70,23 @@
 
 .github {
   color: black ;
+} */
+
+@media (max-width: 900px) {
+  .contact-container {
+    position: static;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+  .c-methods, .thanks {
+    font-size: 20px;
+  }
+  .contact {
+    font-size: 30px;
+  }
+  .c-underline {
+    height: 5px;
+    margin-top: 5px;
+  }
 }

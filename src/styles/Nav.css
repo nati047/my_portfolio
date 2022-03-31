@@ -68,6 +68,7 @@
   .nav {
     max-width: 100vw;
     flex-direction: column;
+    background-color: rgb(51, 50, 50);
   }
   .nav-menu {
     display: none;

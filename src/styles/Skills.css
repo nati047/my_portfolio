@@ -87,3 +87,26 @@
   }
 }
 
+@media (max-width: 900px) {
+  .skills-container {
+    position: static;
+    margin-top: 200px;
+    justify-content: center;
+  }
+  .skills-grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-row-gap: 15px;
+  }
+  .skills {
+    font-size: 30px;
+  }
+  .s-underline {
+    height: 5px;
+  }
+  
+  .skill-logo, .skill-svg  {
+    font-size: 50px;
+    
+  }
+}

@@ -12,7 +12,7 @@ const skillsList = [
 
 function Skills() {
   return (
-    <div id="skills" className="skills-container">
+    <div id="skills" className="skills-container ">
       <div className="skills">SKILLS
         <div className="s-underline"></div>
       </div>

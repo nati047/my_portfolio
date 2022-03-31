@@ -6,7 +6,7 @@ import image1 from '../images/My-urls.png';
 import dog from '../images/dog.jpg';
 function Projects() {
   return (
-    <div id="projects" className="projects-container">
+    <div id="projects" className="projects-container container">
       <div className="projects">PROJECTS
         <div className="p-underline"></div>
       </div>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function About () {
   return (
-    <div id="about" className="about-container">
+    <div id="about" className="about-container container">
       <div className="about-me">ABOUT&nbsp;ME
         <div className="underline"></div>
       </div>

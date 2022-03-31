@@ -39,3 +39,19 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media (max-width: 900px) {
+  .about-container{
+    height: 400px;
+  }
+  .about-me {
+    font-size: 30px;
+  }  
+  .underline {
+    height: 5px;
+  }
+  .about-paragraph {
+    font-size: 20px;
+    width: 90%;
+  }
+}

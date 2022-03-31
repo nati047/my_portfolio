@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
       <div className="background"></div>
+      <Navbar />
       <div className="components">
-        <Navbar />
         <Home />
         <About />
         <Skills />
