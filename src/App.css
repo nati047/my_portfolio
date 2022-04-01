@@ -42,7 +42,7 @@ body {
   width: 100vw;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .container {
     position: static !important;
   }

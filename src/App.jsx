@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     toggle();
-    if(window.innerWidth > 600) {
+    if(window.innerWidth > 1024) {
       scrollAnimation();
     }
   }, [])

@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .about-container{
     height: 400px;
   }

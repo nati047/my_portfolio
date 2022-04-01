@@ -21,7 +21,9 @@ function Projects() {
           </div>
           <div className="project-description">
             <div className="project-name">BACKSTEEN</div>
-            <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
+            <div className="about-project">Backsteen is a multiplayer brick breaker game where players can play against each other remotely.They can also see their opponent's screen while playing, in a split screen format.
+            </div>
+            <p>Tech-stack: HTML5 canvas, React, NodeJS, Expressjs, socket.io</p>
             <div className="project-links">
               <a href="https://github.com/nati047/backsteen" ><FontAwesomeIcon icon={faGithub} /></a>
               <a href="http://backsteen.herokuapp.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
@@ -35,6 +37,7 @@ function Projects() {
           <div className="project-description">
             <div className="project-name">TINY APP</div>
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
+            <p>Tech-stack: HTML5 canvas, React, NodeJS, Expressjs, socket.io</p>
             <div className="project-links">
               <a href="https://github.com/nati047/tinyapp" ><FontAwesomeIcon icon={faGithub} /></a>
               <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
@@ -48,6 +51,7 @@ function Projects() {
           <div className="project-description">
             <div className="project-name">SCHEDULER</div>
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
+            <p>Tech-stack: HTML5 canvas, React, NodeJS, Expressjs, socket.io</p>
             <div className="project-links">
               <a href="https://github.com/nati047/scheduler"><FontAwesomeIcon icon={faGithub} /></a>
               <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
@@ -61,6 +65,7 @@ function Projects() {
           <div className="project-description">
             <div className="project-name">TWEETER</div>
             <div className="about-project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil error laborum distinctio repudiandae labore maiores autem velit optio fuga veritatis!</div>
+            <p>Tech-stack: HTML5 canvas, React, NodeJS, Expressjs, socket.io</p>
             <div className="project-links">
               <a href="https://github.com/nati047/tweeter" ><FontAwesomeIcon icon={faGithub} /></a>
               <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>

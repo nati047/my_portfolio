@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faBars } from '@fortawesome/free-solid-svg-icons'
 import {  reset } from '../../src/scrollAnimation';
 import '../styles/Nav.css';
@@ -23,8 +23,6 @@ function Navbar() {
       <div className="socials">
         <a className="socials-icon" href="https://github.com/nati047"><FontAwesomeIcon icon={faGithub} /></a>
         <a className="socials-icon" href="https://www.linkedin.com/in/webdev-nat/"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a className="socials-icon"><FontAwesomeIcon icon={faInstagram} /></a>
-       
       </div>
     </div>
   );
