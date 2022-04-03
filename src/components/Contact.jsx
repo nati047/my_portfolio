@@ -15,7 +15,7 @@ function Contact () {
           <div >isaacnatnael@gmail.com</div>
        </div>
        <div className="all-contacts">
-         <FontAwesomeIcon className="phone" icon={faTelegram} />
+         <FontAwesomeIcon className="phone" icon={faTelegram} /><br />
          <div >@isaacnt</div>
        </div>
        <div className="all-contacts">

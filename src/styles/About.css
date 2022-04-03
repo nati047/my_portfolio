@@ -31,7 +31,17 @@
   height: 10px;
   background-color: var(--primary);
 }
+/* .textNphoto {
+  display: flex;
+  justify-content: center;
+  border: 1px blanchedalmond solid;
+  margin: 0px 10px;
+}
 
+.photo-container {
+  flex-grow: 1;
+  background-color: black;
+} */
 .about-paragraph {
   width: 80%;
   color: white;

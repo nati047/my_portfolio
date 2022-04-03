@@ -77,6 +77,7 @@ function toggle() {
   const toggleBtn = document.getElementsByClassName('toggle-btn')[0];
   const navMenu = document.getElementsByClassName('nav-menu')[0];
   const navItemsArray = [];
+
   navItemsArray.push(document.getElementsByClassName('nav-item')[0]);
   navItemsArray.push(document.getElementsByClassName('nav-item')[1]);
   navItemsArray.push(document.getElementsByClassName('nav-item')[2]);

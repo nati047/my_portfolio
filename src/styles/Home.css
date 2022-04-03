@@ -118,11 +118,8 @@ a, a:-webkit-any-link {
   .im-name {
     font-size: 33px;
   }
-  .hi, .developer {
-    font-size: 20px;
-  }
-  .qoute{
-    font-size: 20px;
+  .hi, .developer, .qoute {
+    font-size: 18px;
   }
 
   .grid-home{
