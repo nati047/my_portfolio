@@ -31,7 +31,7 @@ function Contact () {
          <div >webdev-nat</div>
        </a>
      </div>
-     <div className="thanks">Thank You for checking out my website!</div>
+     <div className="thanks">Thanks for checking out my website!</div>
    </div>
   );
 }
