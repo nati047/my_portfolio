@@ -33,7 +33,9 @@
 
 .c-methods {
   /* border: 1px solid rgb(170, 56, 56); */
-  width: 60%;
+  margin-left: 20%;
+  align-self: flex-start;
+  max-width: 60%;
   color: white;
   font-size: 30px;
   display: flex;
@@ -46,6 +48,7 @@
   gap: 2%;
   text-decoration: none;
   color: white;
+  width:auto;
 }
 
 .thanks {
@@ -67,10 +70,10 @@
 .linkedin {
   color: #0e81f5;
 }
-
-.github {
-  color: black ;
-} */
+*/
+/* .github {
+  border: 1px solid red;
+}  */
 
 @media (max-width: 1024px) {
   .contact-container {
