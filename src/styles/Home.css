@@ -195,6 +195,7 @@ a, a:-webkit-any-link {
     display: none;
   }
   .photo-container{
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 1;

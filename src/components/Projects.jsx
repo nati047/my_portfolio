@@ -40,7 +40,7 @@ function Projects() {
             <p>Tech-stack: NodeJS, Expressjs, Ejs, Bootstrap</p>
             <div className="project-links">
               <a href="https://github.com/nati047/tinyapp" ><FontAwesomeIcon icon={faGithub} /></a>
-              <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+              {/* <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a> */}
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ function Projects() {
             <p>Tech-stack: React, NodeJS, Expressjs, Storybook, Cypress</p>
             <div className="project-links">
               <a href="https://github.com/nati047/scheduler"><FontAwesomeIcon icon={faGithub} /></a>
-              <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+              {/* <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a> */}
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Projects() {
             <p>Tech-stack: NodeJS, Expressjs, CSS3</p>
             <div className="project-links">
               <a href="https://github.com/nati047/tweeter" ><FontAwesomeIcon icon={faGithub} /></a>
-              <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+              {/* <a><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a> */}
             </div>
           </div>
         </div>
