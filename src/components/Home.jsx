@@ -20,7 +20,7 @@ function Home() {
         </div>
 
         <div className="home-qoute">
-          <div className="qoute">Welcome to My website!</div>
+          <div className="qoute">Welcome to My Portfolio!</div>
         </div>
 
       </div>

@@ -65,4 +65,7 @@
     font-size: 20px;
     width: 90%;
   }
+  .about-container {
+    padding-top: 100px;
+  }
 }
