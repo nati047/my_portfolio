@@ -31,23 +31,24 @@
   height: 10px;
   background-color: var(--primary);
 }
-/* .textNphoto {
+.textNphoto {
   display: flex;
-  justify-content: center;
+  width: 100vw;
   border: 1px blanchedalmond solid;
   margin: 0px 10px;
+  gap: 10px;
 }
 
-.photo-container {
-  flex-grow: 1;
-  background-color: black;
-} */
+
 .about-paragraph {
-  width: 80%;
+  /* border: 1px rgb(14, 48, 241) solid; */
+  flex-grow: 1;
+  max-width: 80%;
   color: white;
   font-size: 25px;
   font-weight: 400;
-  text-align: center;
+  text-align:center;
+
 }
 
 @media (max-width: 1024px) {

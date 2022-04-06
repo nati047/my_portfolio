@@ -32,17 +32,11 @@ body {
   position: fixed;
   z-index: -2;
   background-color: #23252e;
-  background-image: url('/src/images/bgImage.jpg');
+  /* background-image: url('/src/images/bgImage.jpg'); */
   height: 100vh;
   width: 100vw;
 }
-.balls {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  border-radius: 50%;
-  background-color: purple;
-}
+
 @media (max-width: 1024px) {
   .container {
     position: static !important;

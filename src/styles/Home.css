@@ -4,7 +4,7 @@ a, a:-webkit-any-link {
 }
 
 .grid-home {
-  background-image: var(--bg-image);
+  /* background-image: var(--bg-image); */
   position: absolute;
   top: 0px;
   width: 100vw;
@@ -78,6 +78,46 @@ a, a:-webkit-any-link {
   color: var(--primary);
 }
 
+
+.photo-container {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  /* border: 1px rgb(241, 151, 14) solid; */
+  height: 400px;
+  width: 280px;
+  /* background-color: #303137; */
+  /* overflow: hidden; */
+}
+
+.photo {
+  max-height: 400px;
+  width: 280px;
+  position: absolute;
+  transform: rotateZ(10deg) rotateY(180deg);
+  box-shadow: -5px 5px 5px rgb(68, 67, 67);
+  border-radius: 10px;
+  /* clip-path: circle(90% at 100% 100%); */
+}
+.mypic {
+  top: 5px;
+  left: 5px; 
+  z-index: 3;
+}
+.mypic2 {
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+}
+.mypic3 {
+  top: 15px;
+  left: 15px; 
+  z-index: 1;
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+}
 
 @keyframes typing{
   0% {
