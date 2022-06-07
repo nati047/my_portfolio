@@ -12,7 +12,7 @@ function Contact () {
      <div className="c-methods">
        <div className="all-contacts">
           <FontAwesomeIcon className="email" icon={ faAt } /> <br />
-          <div >isaacnatnael@gmail.com</div>
+          <div >natiyis47@gmail.com</div>
        </div>
        <div className="all-contacts">
          <FontAwesomeIcon className="phone" icon={faTelegram} /><br />
