@@ -16,7 +16,7 @@ function Navbar() {
         <a className="nav-item" href="#skills" >Skills</a>
         <a className="nav-item" href="#projects">Projects</a>
         <a className="nav-item" href="#contact">Contact</a>
-        <a className="nav-item  resume" href="/Resume v1.2.pdf" download >Resume&nbsp;
+        <a className="nav-item  resume" href="/Natnael's resume.pdf" download >Resume&nbsp;
           <FontAwesomeIcon icon = { faDownload}/>
         </a>
       </div>
