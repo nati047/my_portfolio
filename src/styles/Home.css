@@ -50,7 +50,8 @@ a, a:-webkit-any-link {
   display: flex;
   width: max-content;
   overflow: hidden;
-  animation: typing 2s  steps(21)  ;
+  opacity: 0;
+  animation: typing 2s 1s forwards steps(21)  ;
 }
 .name-container::before {
   content: "";
@@ -127,10 +128,12 @@ a, a:-webkit-any-link {
 
 @keyframes typing{
   0% {
+    opacity: 1;
     width: 1px;
   }
   
   100% {
+    opacity: 1;
     width: 839px;
   }
 }
