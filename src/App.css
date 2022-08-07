@@ -26,6 +26,7 @@ body {
   height: auto;
   position: relative;
   font-family: var(--main-font);
+  width: 100vw;
 }
 
 .background {
@@ -38,6 +39,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  body{
+    max-width: 100vw;
+  }
   .container {
     position: static !important;
   }

@@ -48,7 +48,7 @@ a, a:-webkit-any-link {
 .name-container {
   position: relative;
   display: flex;
-  width: max-content;
+  max-width: fit-content;
   overflow: hidden;
   opacity: 0;
   animation: typing 2s 1s forwards steps(21)  ;
@@ -172,6 +172,9 @@ a, a:-webkit-any-link {
     padding-left: 5%;
     align-self: end;
     margin-bottom: 100px;
+  }
+  .name-container{
+    z-index: 100;
   }
   .im-name {
     font-size: 33px;
